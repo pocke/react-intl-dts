@@ -1,6 +1,6 @@
 {
   "name": "react-intl-dts",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "A tiny d.ts file generator for react-intl",
   "bin": {
     "i18n-dts": "build/bin/index.js"
