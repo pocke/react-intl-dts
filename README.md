@@ -1,5 +1,7 @@
 # react-intl-dts [![npm version](https://badge.fury.io/js/react-intl-dts.svg)](https://badge.fury.io/js/react-intl-dts)
 
+react-intl-dts is based on [i18n-dts](https://github.com/quipper/i18n-dts). Thank you!
+
 `react-intl-dts` is a `d.ts` file generator for [react-intl](https://github.com/yahoo/react-intl).
 
 With generated `d.ts` file you can treat `FormattedMessage` component type-safely!
