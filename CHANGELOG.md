@@ -1,3 +1,5 @@
+- 0.3.2 2019/04/03
+  - Fix building package
 - 0.3.1 2019/04/03
   - Fix constant name of CONFIG_NAME
 - 0.3.0 2019/04/03

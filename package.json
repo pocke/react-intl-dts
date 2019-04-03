@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "test": "jest",
-    "build": "cp node_modules/@types/react-intl/index.d.ts assets/react-intl.d.ts && yarn run tsc"
+    "prepare": "cp node_modules/@types/react-intl/index.d.ts assets/react-intl.d.ts && tsc"
   },
   "license": "Apache-2.0",
   "dependencies": {
