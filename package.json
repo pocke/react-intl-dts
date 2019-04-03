@@ -1,18 +1,16 @@
 {
-  "name": "i18n-dts",
-  "version": "0.2.0",
-  "description": "A tiny d.ts file generator for react-native-i18n",
+  "name": "react-intl-dts",
+  "version": "0.3.0",
+  "description": "A tiny d.ts file generator for react-intl",
   "bin": {
     "i18n-dts": "build/bin/index.js"
   },
-  "repository": "https://github.com/quipper/i18n-dts",
-  "bugs": "https://github.com/quipper/i18n-dts/issues",
+  "repository": "https://github.com/pocke/react-intl-dts",
+  "bugs": "https://github.com/pocke/react-intl-dts/issues",
   "keywords": [
-    "react-native",
     "typescript"
   ],
   "scripts": {
-    "tsc": "tsc",
     "test": "jest",
     "build": "cp node_modules/@types/react-intl/index.d.ts assets/react-intl.d.ts && yarn run tsc"
   },
