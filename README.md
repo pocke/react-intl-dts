@@ -1,23 +1,21 @@
-# i18n-dts [![CircleCI](https://circleci.com/gh/quipper/i18n-dts.svg?style=svg)](https://circleci.com/gh/quipper/i18n-dts) [![npm version](https://badge.fury.io/js/i18n-dts.svg)](https://badge.fury.io/js/i18n-dts)
+# react-intl-dts [![npm version](https://badge.fury.io/js/react-intl-dts.svg)](https://badge.fury.io/js/react-intl-dts)
 
-`i18n-dts` is a `d.ts` file generator for [i18n-js](https://github.com/fnando/i18n-js).
+`react-intl-dts` is a `d.ts` file generator for [react-intl](https://github.com/yahoo/react-intl).
 
-With generated `d.ts` file you can treat `I18n` object type-safely!
-
-![demo](https://raw.githubusercontent.com/quipper/i18n-dts/master/doc/demo.gif)
+With generated `d.ts` file you can treat `FormattedMessage` component type-safely!
 
 ## Installation
 
 #### NPM
 
 ```sh
-npm install -D i18n-dts
+npm install -D react-intl-dts
 ```
 
 #### Yarn
 
 ```sh
-yarn add -D i18n-dts
+yarn add -D react-intl-dts
 ```
 
 ## Configuration
@@ -28,7 +26,7 @@ First of all specify the following settings in root `package.json`.
 - `outputDir`: `d.ts` file will be emitted in specified directory
 
 ```json
-"i18n-dts": {
+"react-intl-dts": {
   "model": "./src/locale/languages/en.json",
   "outputDir": "./typings"
 }
@@ -52,14 +50,14 @@ And add `outputDir` dir into `filesGlob` option in `tsconfig.json`.
 ],
 ```
 
-That's it! Now you can use `i18n-dts` command which generates corresponding `d.ts` file.
+That's it! Now you can use `react-intl-dts` command which generates corresponding `d.ts` file.
 
 We recommend to add scripts below into `package.json`.
 
 ```json
 "scripts": {
-  "i18n-dts": "i18n-dts",
-  "i18n-dts:watch": "i18n-dts -w"
+  "react-intl-dts": "react-intl-dts",
+  "react-intl-dts:watch": "react-intl-dts -w"
 },
 ```
 
@@ -69,13 +67,33 @@ We recommend to add scripts below into `package.json`.
 
 You can enable watch mode by adding `--watch` (shorthand `-w`) flag.
 
-In the watch mode, i18n-dts watches update of model file and generates d.ts file when the model is updated.
+In the watch mode, react-intl-dts watches update of model file and generates d.ts file when the model is updated.
 
 ```sh
-i18n-dts --watch
+react-intl-dts --watch
 ```
 
 ## Licence
+
+```
+Copyright 2019 Masataka Pocke Kuwabara
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
+### i18n-dts's license
+
+react-intl-dts is based on i18n-dts.
 
 ```
 Copyright 2018 Quipper Limited.
