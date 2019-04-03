@@ -1,3 +1,5 @@
+- 0.3.1 2019/04/03
+  - Fix constant name of CONFIG_NAME
 - 0.3.0 2019/04/03
   - Forked from [quipper/i18n-dts](https://github.com/quipper/i18n-dts) and start supporting [react-intl](https://github.com/yahoo/react-intl).
 - 0.2.0 2018/11/29
